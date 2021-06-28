@@ -1,0 +1,55 @@
+body {
+    font-family: 'Roboto', sans-serif;
+}
+
+#introduction {
+    display: inline-flex;
+}
+
+#introduction h1 {
+    text-align: center;
+}
+
+#introduction h2 {
+    font-size: small;
+}
+
+#cellphone {
+    background-color: #F24B6A;
+    width: 50%;
+}
+
+#why {
+    text-align: center;
+}
+
+#what h2 {
+    text-align: center;
+}
+
+footer {
+    background-color: #0D0D0D;
+    color: #F2F2F2;
+    display: inline-flex;
+}
+
+footer #links {
+    width: 50%;
+}
+
+#apply-attend a {
+    color: #F24B6A;
+}
+
+#apply-attend button {
+    display: block;
+}
+
+#links a {
+    display: block;
+    color: #F2F2F2;
+}
+
+#logo {
+    filter: brightness(0) invert(1);
+}
