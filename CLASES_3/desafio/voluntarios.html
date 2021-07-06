@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!-- Assets para iconos de redes sociales -->
+    <script src="https://kit.fontawesome.com/339c667abf.js" crossorigin="anonymous"></script>
+    <!-- Fuente de google -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@100&display=swap" rel="stylesheet">
+    <!-- CSS propio -->
+    <link href="./public/css/style.css" rel="stylesheet" type="text/css">
+    <title>ContigoSalud</title>
+</head>
+
+<body>
+    <header>
+        <nav>
+            <ul>
+                <li><a href="sobre-nosotros.html">Sobre nosotros</a></li>
+                <li><a href="voluntarios.html">Cómo ser voluntario</a></li>
+                <li><a href="testimonios.html">Testimonios</a></li>
+            </ul>
+        </nav>
+    </header>
+    <h1>Cómo ser voluntario</h1>
+    <p>Si perteneces a una organizacion ya inscrita, o quiere inscribirte como un voluntario novinculado alguna
+        organizacion, completa el formulario y te contactaremos en breve.
+    </p>
+    <form id="conctactanos">
+        <label for="nombre">Nombre</label>
+        <input type="text" id="name" name="name" required />
+        <label for="email">Email</label>
+        <input type="email" id="email" name="email" required />
+        <label for="area">Área</label>
+        <select name="area" id="area">
+            <option value="Enfermería">Enfermería</option>
+            <option value="Psicología">Psicología</option>
+            <option value="Medicina">Medicina</option>
+            <option value="Otra">Otro</option>
+        </select>
+        <input type="button" value="Enviar">
+    </form>
+
+    <footer>
+        <div id="links">
+            <a href="contactanos.html">Contáctanos</a>
+        </div>
+        <div id="social-networks">
+            <span id="fb">
+                <i class="fab fa-facebook-square"></i>
+            </span>
+            <span id="igm">
+                <i class="fab fa-instagram-square"></i>
+            </span>
+        </div>
+        <div>
+            <small>&copy; Copyright 2021 ContigoSalud</small>
+        </div>
+    </footer>
+
+</body>
+
+</html>
