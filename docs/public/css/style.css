@@ -1,55 +1,53 @@
-body {
+.body {
     font-family: 'Roboto', sans-serif;
 }
 
-#introduction {
+.section {
     display: inline-flex;
 }
 
-#introduction h1 {
+.h1 {
     text-align: center;
 }
 
-#introduction h2 {
-    font-size: small;
+.h2 {
+    font-size: big;
+    text-align: center;
 }
 
-#cellphone-div {
+.h2--make-smaller {
+    font-size: smaller;
+    text-align: left;
+}
+
+.div {
+    display: inline-block;
+}
+
+.div--make-half-size {
+    width: 50%;
+}
+
+.div--pink-colored {
     background-color: #F24B6A;
     width: 50%;
 }
 
-#why {
+.section--center-aligned {
     text-align: center;
 }
 
-#what h2 {
-    text-align: center;
-}
-
-footer {
+.footer {
     background-color: #0D0D0D;
     color: #F2F2F2;
     display: inline-flex;
 }
 
-footer #links {
-    width: 50%;
-}
-
-#apply-attend a {
-    color: #F24B6A;
-}
-
-#apply-attend button {
-    display: block;
-}
-
-#links a {
+.links-invert-color {
     display: block;
     color: #F2F2F2;
 }
 
-#logo {
+.img--invert-color {
     filter: brightness(0) invert(1);
 }
