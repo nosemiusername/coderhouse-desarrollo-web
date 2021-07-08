@@ -87,3 +87,7 @@
 .span--block-display {
     display: block
 }
+
+.span--aling-italic {
+    font-style: italic;
+}

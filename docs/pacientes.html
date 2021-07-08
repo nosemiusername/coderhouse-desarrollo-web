@@ -25,8 +25,8 @@
             </ul>
         </nav>
     </header>
-    <h1>Solicta atención</h1>
-    <form id="solicita-atencion" method="GET" action="/">
+    <h1>Solicita atención</h1>
+    <form id="solicita-atencion" method="GET">
         <label class="label" for="nombre">Nombre</label>
         <input type="text" id="nombre" name="nombre">
         <label class="label" for="email">Email</label>
@@ -39,16 +39,16 @@
         <label for="M">M</label>
         <input type="radio" id="M" name="genero" value="M">
         <div>
-            <input type="checkbox" id="TyC" value="1">
+            <input type="checkbox" name="TyC" id="TyC" value="1">
             <span type>Aprueba ser contactado.</span>
         </div>
-        <input type="button" value="Solicitar">
+        <input type="submit" value="Solicitar">
     </form>
     <footer class="footer">
         <div id="links" class="div div--make-half-size">
             <a href="contactanos.html" class="links-invert-color">Contáctanos</a>
         </div>
-        <div id="social-networks">
+        <div id="social-networks" class="div div--align-right div--make-half-size">
             <span id="fb">
                 <i class="fab fa-facebook-square"></i>
             </span>
