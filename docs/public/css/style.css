@@ -32,14 +32,19 @@
 }
 
 .div {
-    display: inline-block;
+    display: flex;
 }
 
 .div--add-padding {
     padding-left: 5px;
 }
 
+.div--align-right {
+    text-align: right;
+}
+
 .div--make-half-size {
+    display: inline;
     width: 50%;
 }
 
@@ -56,19 +61,29 @@
 .footer {
     background-color: #0D0D0D;
     color: #F2F2F2;
-    display: inline-flex;
+    position: fixed;
+    left: 0;
+    bottom: 0;
+    width: 100%;
 }
 
 .links-invert-color {
     display: block;
     color: #F2F2F2;
-
 }
 
 .img--invert-color {
     filter: brightness(0) invert(1);
 }
 
-.img {
-    float:
+.input {
+    display: block;
+}
+
+.label {
+    display: block;
+}
+
+.span--block-display {
+    display: block
 }

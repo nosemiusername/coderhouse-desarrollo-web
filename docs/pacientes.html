@@ -26,19 +26,22 @@
         </nav>
     </header>
     <h1>Solicta atención</h1>
-    <form id="solicita-atencion">
-        <label for="nombre">Nombre</label>
+    <form id="solicita-atencion" method="GET" action="/">
+        <label class="label" for="nombre">Nombre</label>
         <input type="text" id="nombre" name="nombre">
-        <label for="email">Email</label>
+        <label class="label" for="email">Email</label>
         <input type="text" name="email" id="email">
-        <label for="telefono">Telefono</label>
+        <label class="label" for="telefono">Telefono</label>
         <input type="number" name="telefono" id="telefono">
+        <label class="label" for="genero">Genero</label>
         <label for="H">H</label>
         <input type="radio" id="H" name="genero" value="H">
         <label for="M">M</label>
         <input type="radio" id="M" name="genero" value="M">
-        <input type="checkbox" id="TyC" value="1">
-        <span>Aprueba ser contactado.</span>
+        <div>
+            <input type="checkbox" id="TyC" value="1">
+            <span type>Aprueba ser contactado.</span>
+        </div>
         <input type="button" value="Solicitar">
     </form>
     <footer class="footer">
