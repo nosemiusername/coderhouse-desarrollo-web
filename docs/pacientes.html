@@ -13,6 +13,7 @@
     <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@100&display=swap" rel="stylesheet">
     <!-- CSS propio -->
     <link href="./public/css/style.css" rel="stylesheet" type="text/css">
+    <link href="./public/css/pacientes.css" rel="stylesheet" type="text/css">
     <title>ContigoSalud</title>
 </head>
 
@@ -32,25 +33,31 @@
             </ul>
         </nav>
     </header>
-    <h1>Solicita atención</h1>
-    <form id="solicita-atencion" method="GET">
-        <label class="label" for="nombre">Nombre</label>
-        <input type="text" id="nombre" name="nombre">
-        <label class="label" for="email">Email</label>
-        <input type="text" name="email" id="email">
-        <label class="label" for="telefono">Telefono</label>
-        <input type="number" name="telefono" id="telefono">
-        <label class="label" for="genero">Genero</label>
-        <label for="H">H</label>
-        <input type="radio" id="H" name="genero" value="H">
-        <label for="M">M</label>
-        <input type="radio" id="M" name="genero" value="M">
-        <div>
-            <input type="checkbox" name="TyC" id="TyC" value="1">
-            <span type>Aprueba ser contactado.</span>
-        </div>
-        <input type="submit" value="Solicitar">
-    </form>
+    <section class="section">
+        <h1 class="h1">Solicita atención</h1>
+        <p class="p">Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptates, voluptatibus repudiandae in
+            maxime
+            obcaecati beatae. Accusantium nam cumque cupiditate neque. Id, harum. Voluptatibus inventore veritatis hic
+            quaerat explicabo sit id.
+        </p>
+        <form id="conctactanos" class="form">
+            <label class="label" for="nombre">Nombre</label>
+            <input class="input" type="text" id="nombre" name="name" required placeholder="Nombre" />
+            <label class="label" for="email">Email</label>
+            <input class="input" type="email" id="email" name="email" required placeholder="Email" />
+            <label class="label" for="area">Área</label>
+            <select class="select" name="area" id="area">
+                <option disabled selected>Área</option>
+                <option value="Enfermería">Enfermería</option>
+                <option value="Psicología">Psicología</option>
+                <option value="Medicina">Medicina</option>
+                <option value="Otra">Otro</option>
+            </select>
+            <label class="label" for="fecha">Fecha</label>
+            <input class="input" type="date" id="fecha">
+            <input class="button" type="submit" value="Solicitar hora!">
+        </form>
+    </section>
     <footer class="footer">
         <div class="div-copyright">
             <small class="small">&copy; Copyright 2021 ContigoSalud</small>
