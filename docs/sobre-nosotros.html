@@ -18,12 +18,17 @@
 
 <body class="body">
     <header>
-        <nav>
-            <ul class="nav">
-                <li class="li"><a href="index.html">Home</a></li>
-                <li class="li"><a href="sobre-nosotros.html">Sobre nosotros</a></li>
-                <li class="li"><a href="voluntarios.html">Cómo ser voluntario</a></li>
-                <li class="li"><a href="testimonios.html">Testimonios</a></li>
+        <nav class="nav">
+            <div id="div-img">
+                <a href="index.html"><img id="logo" class="img--invert-color" src="./public/img/contigosalud.png"
+                        alt="logo" height="50"></a>
+            </div>
+            <ul class="ul">
+                <li class="li"><a class="a" href="sobre-nosotros.html">Sobre nosotros</a></li>
+                <li class="li">|</a></li>
+                <li class="li"><a class="a" href="voluntarios.html">Cómo ser voluntario</a></li>
+                <li class="li">|</a></li>
+                <li class="li"><a class="a" href="testimonios.html">Testimonios</a></li>
             </ul>
         </nav>
     </header>
@@ -107,19 +112,17 @@
         </table>
     </section>
     <footer class="footer">
-        <div id="links" class="div div--make-half-size">
-            <a href="contactanos.html" class="links-invert-color">Contáctanos</a>
+        <div class="div-copyright">
+            <small class="small">&copy; Copyright 2021 ContigoSalud</small>
         </div>
-        <div id="social-networks" class="div div--align-right div--make-half-size">
-            <span id="fb">
+        <div class="div-social-links">
+            <div id="social-networks" class="div-social-networks">
                 <i class="fab fa-facebook-square"></i>
-            </span>
-            <span id="igm">
                 <i class="fab fa-instagram-square"></i>
-            </span>
-        </div>
-        <div>
-            <small>&copy; Copyright 2021 ContigoSalud</small>
+            </div>
+            <div id="links" class="div-links">
+                <a href="terminos.html" class="links-invert-color">Terminos y condiciones</a>
+            </div>
         </div>
     </footer>
 </body>
