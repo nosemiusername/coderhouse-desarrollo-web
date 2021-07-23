@@ -1,35 +1,99 @@
 /* roboto, lato, poppins, montserrat, raleway, son buenas opciones */
+
+* {
+    margin: 0px;
+    padding: 0px;
+}
+
+html {
+    font-size: 62.5%;
+}
+
 .body {
     font-family: 'Roboto', sans-serif;
 }
 
 .nav {
-    display: inline-flex;
-    list-style-type: none;
-    margin: 0px;
-    padding: 0px;
+    background-color: #F24B6A;
+    padding: 10px;
+    position: relative;
+    font-size: 1.5em;
+}
+
+
+.ul {
+    position: absolute;
+    right: 20px;
+    top: 28px;
 }
 
 .li {
+    display: inline;
     padding: 5px;
+    list-style: none;
+    color: #F2F2F2;
+}
+
+.a {
+    font-weight: bold;
+}
+
+.a:link {
+    color: white;
+}
+
+.a:visited {
+    color: white;
+}
+
+.a:hover {
+    font-weight: 100;
+}
+
+.div-title {
+    width: 30%;
+    padding: 30px;
+    margin: auto;
 }
 
 .section {
-    display: inline-flex;
+    display: flex;
+}
+
+.div-cellphone {
+    display: inline-block;
+    width: 50%;
+    margin: 0px;
+}
+
+.div-attend {
+    display: inline-block;
+    width: 50%;
+    text-align: left;
+    padding-left: 30px;
+    padding-top: 120px;
+}
+
+.img-cellphone {
+    float: right;
+    margin-right: 30px;
 }
 
 .h1 {
     text-align: center;
+    display: block;
+    font-size: 3em;
 }
 
 .h2 {
-    font-size: big;
-    text-align: center;
+    font-size: 2em;
 }
 
-.h2--make-smaller {
-    font-size: smaller;
-    text-align: left;
+.button {
+    background-color: black;
+    color: #F2F2F2;
+    padding: 8px;
+    margin-top: 5px;
 }
 
 .div {
@@ -50,13 +114,38 @@
 }
 
 .div--pink-colored {
-    background-color: #F24B6A;
     width: 50%;
 }
 
 .section--center-aligned {
+    padding: 30px;
     text-align: center;
     background-color: lightgray;
+}
+
+.p {
+    padding: 10px;
+    width: 20%;
+    margin: auto;
+    font-size: 1.5em;
+}
+
+.section--what {
+    padding: 30px;
+    text-align: center;
+    margin-bottom: 30px;
+}
+
+.ul-feats {
+    padding: 10px;
+    width: 30%;
+    margin: auto;
+    font-size: 1.5em;
+}
+
+.li-feats {
+    margin-top: 3px;
+    list-style-image: url("https://i.ibb.co/3CBt28j/angle-brackets-16.png");
 }
 
 .footer {
@@ -66,15 +155,48 @@
     left: 0;
     bottom: 0;
     width: 100%;
+    font-size: 1.2em;
+    display: flex;
+    padding-top: 48px;
+    padding-bottom: 0px;
+}
+
+.div-copyright {
+    width: 50%;
+    display: inline;
+    position: relative;
+}
+
+.small {
+    position: absolute;
+    bottom: 10px;
+}
+
+.div-social-links {
+    width: 50%;
+    position: relative;
+}
+
+.div-social-networks {
+    position: absolute;
+    right: 5px;
+    bottom: 23px;
+}
+
+.div-links {
+    position: absolute;
+    bottom: 10px;
+    right: 5px;
 }
 
 .links-invert-color {
-    display: block;
     color: #F2F2F2;
+    display: block;
 }
 
 .img--invert-color {
     filter: brightness(0) invert(1);
+    margin-left: 20px;
 }
 
 .input {
