@@ -13,6 +13,7 @@
     <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@100&display=swap" rel="stylesheet">
     <!-- CSS propio -->
     <link href="./public/css/style.css" rel="stylesheet" type="text/css">
+    <link href="./public/css/voluntarios.css" rel="stylesheet" type="text/css">
     <title>ContigoSalud</title>
 </head>
 
@@ -32,25 +33,28 @@
             </ul>
         </nav>
     </header>
-    <h1>Cómo ser voluntario</h1>
-    <p>Si perteneces a una organizacion ya inscrita, o quiere inscribirte como un voluntario novinculado alguna
-        organizacion, completa el formulario y te contactaremos en breve.
-    </p>
-    <form id="conctactanos">
-        <label class="label" for="nombre">Nombre</label>
-        <input type="text" id="nombre" name="name" required />
-        <label class="label" for="email">Email</label>
-        <input type="email" id="email" name="email" required />
-        <label class="label" for="area">Área</label>
-        <select name="area" id="area">
-            <option value="Enfermería">Enfermería</option>
-            <option value="Psicología">Psicología</option>
-            <option value="Medicina">Medicina</option>
-            <option value="Otra">Otro</option>
-        </select>
-        <input class="input" type="submit" value="Enviar">
-    </form>
-
+    <section class="section">
+        <h1 class="h1">Cómo ser voluntario</h1>
+        <p class="p">Si perteneces a una organizacion ya inscrita, o quiere inscribirte como un voluntario novinculado
+            alguna
+            organizacion, completa el formulario y te contactaremos en breve.
+        </p>
+        <form id="conctactanos" class="form">
+            <label class="label" for="nombre">Nombre</label>
+            <input class="input" type="text" id="nombre" name="name" required placeholder="Nombre" />
+            <label class="label" for="email">Email</label>
+            <input class="input" type="email" id="email" name="email" required placeholder="Email" />
+            <label class="label" for="area">Área</label>
+            <select class="select" name="area" id="area">
+                <option disabled selected>Área</option>
+                <option value="Enfermería">Enfermería</option>
+                <option value="Psicología">Psicología</option>
+                <option value="Medicina">Medicina</option>
+                <option value="Otra">Otro</option>
+            </select>
+            <input class="button" type="submit" value="Inscribirme!">
+        </form>
+    </section>
     <footer class="footer">
         <div class="div-copyright">
             <small class="small">&copy; Copyright 2021 ContigoSalud</small>
