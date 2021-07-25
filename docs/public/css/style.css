@@ -1,10 +1,10 @@
-/* roboto, lato, poppins, montserrat, raleway, son buenas opciones */
-
+/* Reset de margenes */
 * {
     margin: 0px;
     padding: 0px;
 }
 
+/* CSS Tricks para conversion de pixels a em */
 html {
     font-size: 62.5%;
 }
@@ -115,4 +115,9 @@ html {
 
 .span--aling-italic {
     font-style: italic;
+}
+
+
+.fab__i-removecolor {
+    color: white;
 }
