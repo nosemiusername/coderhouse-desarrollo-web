@@ -71,21 +71,30 @@ html {
     color: #F2F2F2;
     font-size: 1.2em;
     display: flex;
-    padding-top: 48px;
-    padding-bottom: 0px;
+    justify-content: space-between;
+    padding: 20px;
 }
-
-.div-copyright {}
 
 .small {
     bottom: 10px;
 }
 
-.div-social-links {}
+.div-copyright {
+    display: flex;
+    align-items: flex-end;
+}
 
-.div-social-networks {}
+.div-social-links {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
 
-.div-links {}
+.div-social-networks {
+    display: flex;
+    flex-direction: row-reverse;
+    gap: 2px;
+}
 
 .links-invert-color {
     color: #F2F2F2;
