@@ -7,30 +7,45 @@
 
 html {
     font-size: 62.5%;
-}
-
-.body {
     font-family: 'Roboto', sans-serif;
 }
 
-.nav {
+.container {
+    height: 100vh;
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    grid-template-rows: repeat(6, 1fr);
+    grid-template-areas:
+        "header header"
+        "title title"
+        "introduction introduction"
+        "why why"
+        "what what"
+        "footer footer";
+}
+
+.header {
+    grid-area: header;
     background-color: #F24B6A;
-    padding: 10px;
-    position: relative;
+    padding: 15px;
     font-size: 1.5em;
 }
 
-.ul {
-    position: absolute;
-    right: 20px;
-    top: 28px;
+.nav {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.div-title {
+    grid-area: title;
 }
 
 .li {
-    display: inline;
     padding: 5px;
-    list-style: none;
     color: #F2F2F2;
+    display: inline;
 }
 
 .a {
@@ -51,45 +66,26 @@ html {
 
 
 .footer {
+    grid-area: footer;
     background-color: #0D0D0D;
     color: #F2F2F2;
-    position: fixed;
-    left: 0;
-    bottom: 0;
-    width: 100%;
     font-size: 1.2em;
     display: flex;
     padding-top: 48px;
     padding-bottom: 0px;
 }
 
-.div-copyright {
-    width: 50%;
-    display: inline;
-    position: relative;
-}
+.div-copyright {}
 
 .small {
-    position: absolute;
     bottom: 10px;
 }
 
-.div-social-links {
-    width: 50%;
-    position: relative;
-}
+.div-social-links {}
 
-.div-social-networks {
-    position: absolute;
-    right: 5px;
-    bottom: 23px;
-}
+.div-social-networks {}
 
-.div-links {
-    position: absolute;
-    bottom: 10px;
-    right: 5px;
-}
+.div-links {}
 
 .links-invert-color {
     color: #F2F2F2;
@@ -97,8 +93,8 @@ html {
 }
 
 .img--invert-color {
+    width: 50px;
     filter: brightness(0) invert(1);
-    margin-left: 20px;
 }
 
 .input {
