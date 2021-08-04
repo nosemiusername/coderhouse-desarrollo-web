@@ -10,20 +10,6 @@ html {
     font-family: 'Roboto', sans-serif;
 }
 
-.container {
-    height: 100vh;
-    display: grid;
-    grid-template-columns: repeat(2, 1fr);
-    grid-template-rows: repeat(6, 1fr);
-    grid-template-areas:
-        "header header"
-        "title title"
-        "introduction introduction"
-        "why why"
-        "what what"
-        "footer footer";
-}
-
 .header {
     grid-area: header;
     background-color: #F24B6A;

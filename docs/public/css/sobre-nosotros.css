@@ -1,5 +1,13 @@
-* {
-    /* border-style: dashed; */
+.container {
+    height: 100vh;
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    grid-template-rows: 80px repeat(2, 1fr) 60px;
+    grid-template-areas:
+        "header header"
+        "origen origen"
+        "person person"
+        "footer footer";
 }
 
 .h1 {
@@ -8,10 +16,12 @@
 
 .section-origen {
     margin: 30px 0px 0px 15px;
+    grid-area: origen;
 }
 
 .section-person {
     margin: 30px 0px 90px 15px;
+    grid-area: person;
 }
 
 .p {
