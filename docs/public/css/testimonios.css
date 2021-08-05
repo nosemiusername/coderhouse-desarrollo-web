@@ -2,7 +2,7 @@
     height: 100vh;
     display: grid;
     grid-template-columns: repeat(2, 1fr);
-    grid-template-rows: 80px 350px 1fr 60px;
+    grid-template-rows: 80px 380px 1fr 60px;
     grid-template-areas:
         "header header"
         "section section"
