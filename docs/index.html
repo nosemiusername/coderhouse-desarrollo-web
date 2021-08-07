@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!-- Assets para iconos de redes sociales -->
+    <script src="https://kit.fontawesome.com/339c667abf.js" crossorigin="anonymous"></script>
+    <!-- Fuente de google -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@100&display=swap" rel="stylesheet">
+    <!-- CSS propio -->
+    <link href="./public/css/style.css" rel="stylesheet" type="text/css">
+    <link href="./public/css/index.css" rel="stylesheet" type="text/css">
+    <title>ContigoSalud</title>
+</head>
+
+<body>
+    <div class="container">
+        <header class="header">
+            <nav class="nav">
+                <a href="index.html"><img id="logo" class="img--invert-color" src="./public/img/contigosalud.png"
+                        alt="logo"></a>
+                <ul class="ul">
+                    <li class="li"><a class="a" href="sobre-nosotros.html">Sobre nosotros</a></li>
+                    <li class="li">|</a></li>
+                    <li class="li"><a class="a" href="voluntarios.html">Cómo ser voluntario</a></li>
+                    <li class="li">|</a></li>
+                    <li class="li"><a class="a" href="testimonios.html">Testimonios</a></li>
+                </ul>
+            </nav>
+        </header>
+        <div class="div-title">
+            <h1 class="h1">Primera plataforma de Telemedicina Gratuita</h1>
+        </div>
+        <!-- Primera sección y que debería entenderse el call to action para ir a la atención -->
+        <section id="introduction" class="introduction">
+            <div id="cellphone-div" class="div-cellphone">
+                <img id="cellphone-img" class="img-cellphone" src="public/img/iphone.png" alt="cellphone" width="250">
+            </div>
+            <div id="apply-attend" class="div-attend">
+                <h2 class="h2">Inicia ahora una atención</h2>
+                <button class="button" onclick="location.href='pacientes.html'">Solicitar atención</button>
+            </div>
+        </section>
+        <!-- Sección para explicar las razones de por que se realiza el proyecto -->
+        <section id="why" class="why">
+            <h2 class="h2">¿Por qué lo hacemos?</h2>
+            <p class="p">
+                Porque la pandemia ha evidenciado la dificultades de acceso a las atenciones y de calidad. Pensada con
+                cariño por quienes más lo necesitan.
+            </p>
+        </section>
+        <!-- Sección para detallar lo que se ofrece -->
+        <section id="what" class="what">
+            <h2 class="h2">¿Qué ofrecemos?</h2>
+            <ul class="ul-feats">
+                <li class="li-feats">Es completamente gratuito</li>
+                <li class="li-feats">Nos preocupamos por la simpleza de uso</li>
+                <li class="li-feats">Pedimos antecedentes minimos de registro para poder generar la atención</li>
+                <li class="li-feats">Protegemos la privacidad de los datos</li>
+            </ul>
+        </section>
+        <footer class="footer">
+            <div class="div-copyright">
+                <small class="small">&copy; Copyright 2021 ContigoSalud</small>
+            </div>
+            <div class="div-social-links">
+                <div id="social-networks" class="div-social-networks">
+                    <i class="fab fa-instagram-square"></i>
+                    <i class="fab fa-facebook-square"></i>
+                </div>
+                <div id="links" class="div-links">
+                    <a href="terminos.html" class="links-invert-color">Terminos y condiciones</a>
+                </div>
+            </div>
+        </footer>
+    </div>
+</body>
+
+</html>

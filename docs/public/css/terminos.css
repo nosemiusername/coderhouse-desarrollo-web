@@ -1,0 +1,44 @@
+.container {
+    height: 100vh;
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    grid-template-rows: 80px 1fr 60px;
+    grid-template-areas:
+        "header header"
+        "section section"
+        "footer footer";
+    text-align: justify;
+}
+
+.section {
+    grid-area: section;
+    margin: 15px 0px;
+}
+
+.h1 {
+    display: none;
+}
+
+.h2 {
+    padding: 5px;
+    margin-right: 10px;
+    background-color: black;
+    color: #F2F2F2;
+}
+
+.p {
+    margin: 10px 15px 10px;
+    width: 70%;
+    font-size: 1.2em;
+}
+
+.list {
+    margin: 10px 50px;
+    width: 60%;
+    font-size: 1.2em;
+
+}
+
+.url {
+    color: #F24B6A;
+}

@@ -1,0 +1,98 @@
+.container {
+    height: 100vh;
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    grid-template-rows: 80px repeat(4, 1fr) 60px;
+    grid-template-areas:
+        "header header"
+        "title title"
+        "introduction introduction"
+        "why why"
+        "what what"
+        "footer footer";
+}
+
+.div-title {
+    width: 30%;
+    padding: 30px;
+    margin: auto;
+}
+
+.introduction {
+    grid-area: introduction;
+    display: flex;
+    justify-content: space-between;
+}
+
+.ul {
+    display: flex;
+    justify-content: space-between;
+}
+
+.div-cellphone {
+    width: 50%;
+    margin: 0px;
+}
+
+.div-attend {
+    width: 50%;
+    text-align: left;
+    padding-left: 30px;
+    padding-top: 120px;
+}
+
+.img-cellphone {
+    float: right;
+    margin-right: 30px;
+}
+
+.h1 {
+    text-align: center;
+    display: block;
+    font-size: 3em;
+}
+
+.h2 {
+    font-size: 2em;
+}
+
+.button {
+    background-color: black;
+    color: #F2F2F2;
+    padding: 8px;
+    margin-top: 5px;
+}
+
+
+.why {
+    grid-area: why;
+    padding: 30px;
+    text-align: center;
+    background-color: lightgray;
+}
+
+.p {
+    padding: 10px;
+    width: 20%;
+    margin: auto;
+    font-size: 1.5em;
+}
+
+.what {
+    grid-area: what;
+    padding: 30px;
+    text-align: center;
+    margin-bottom: 30px;
+}
+
+.ul-feats {
+    padding: 10px;
+    width: 30%;
+    margin: auto;
+    font-size: 1.5em;
+}
+
+.li-feats {
+    margin-top: 3px;
+    list-style-image: url("https://i.ibb.co/3CBt28j/angle-brackets-16.png");
+}

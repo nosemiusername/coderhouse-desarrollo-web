@@ -1,0 +1,58 @@
+.container {
+    height: 100vh;
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    grid-template-rows: 80px 400px 1fr 60px;
+    grid-template-areas:
+        "header header"
+        "section section"
+        "section2 section2"
+        "footer footer";
+}
+
+.h1 {
+    display: none;
+}
+
+
+.section {
+    /* margin-left: 60px; */
+    grid-area: section;
+    display: flex;
+    flex-wrap: wrap;
+    font-size: 1.8rem;
+    justify-content: space-between;
+    align-items: center;
+    justify-items: center;
+}
+
+.testimonial {
+    width: 32%;
+    position: relative;
+}
+
+.testimonial-img {
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+    position: absolute;
+    right: 45%;
+    top: 92%;
+
+}
+
+.blockquote {
+    width: 70%;
+    text-align: center;
+    border-style: solid;
+    padding: 3px;
+    padding: 15px;
+    margin: auto;
+}
+
+.span {
+    position: absolute;
+    right: 45%;
+    bottom: -60px;
+    font-size: .7em;
+}

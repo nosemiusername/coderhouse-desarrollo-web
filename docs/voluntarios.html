@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!-- Assets para iconos de redes sociales -->
+    <script src="https://kit.fontawesome.com/339c667abf.js" crossorigin="anonymous"></script>
+    <!-- Fuente de google -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@100&display=swap" rel="stylesheet">
+    <!-- CSS propio -->
+    <link href="./public/css/style.css" rel="stylesheet" type="text/css">
+    <link href="./public/css/voluntarios.css" rel="stylesheet" type="text/css">
+    <title>ContigoSalud</title>
+</head>
+
+<body class="body">
+    <div class="container">
+        <header class="header">
+            <nav class="nav">
+                <a href="index.html"><img id="logo" class="img--invert-color" src="./public/img/contigosalud.png"
+                        alt="logo"></a>
+                <ul class="ul">
+                    <li class="li"><a class="a" href="sobre-nosotros.html">Sobre nosotros</a></li>
+                    <li class="li">|</a></li>
+                    <li class="li"><a class="a" href="voluntarios.html">Cómo ser voluntario</a></li>
+                    <li class="li">|</a></li>
+                    <li class="li"><a class="a" href="testimonios.html">Testimonios</a></li>
+                </ul>
+            </nav>
+        </header>
+        <h1 class="h1">Cómo ser voluntario</h1>
+        <!-- Seccion para hacerse voluntario -->
+        <section class="section">
+            <p class="p">Si perteneces a una organizacion ya inscrita, o quiere inscribirte como un voluntario
+                novinculado
+                alguna
+                organizacion, completa el formulario y te contactaremos en breve.
+            </p>
+            <form id="conctactanos" class="form">
+                <label class="label" for="nombre">Nombre</label>
+                <input class="input" type="text" id="nombre" name="name" required placeholder="Nombre" />
+                <label class="label" for="email">Email</label>
+                <input class="input" type="email" id="email" name="email" required placeholder="Email" />
+                <label class="label" for="area">Área</label>
+                <select class="select" name="area" id="area">
+                    <option disabled selected>Área</option>
+                    <option value="Enfermería">Enfermería</option>
+                    <option value="Psicología">Psicología</option>
+                    <option value="Medicina">Medicina</option>
+                    <option value="Otra">Otro</option>
+                </select>
+                <input class="button" type="submit" value="Inscribirme!">
+            </form>
+        </section>
+        <footer class="footer">
+            <div class="div-copyright">
+                <small class="small">&copy; Copyright 2021 ContigoSalud</small>
+            </div>
+            <div class="div-social-links">
+                <div id="social-networks" class="div-social-networks">
+                    <i class="fab fa-instagram-square"></i>
+                    <i class="fab fa-facebook-square"></i>
+                </div>
+                <div id="links" class="div-links">
+                    <a href="terminos.html" class="links-invert-color">Terminos y condiciones</a>
+                </div>
+            </div>
+        </footer>
+    </div>
+
+</body>
+
+</html>
