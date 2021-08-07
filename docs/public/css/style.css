@@ -53,7 +53,7 @@ html {
 
 .footer {
     grid-area: footer;
-    background-color: #0D0D0D;
+    background-image: linear-gradient(#F2F2F2, #0D0D0D);
     color: #F2F2F2;
     font-size: 1.2em;
     display: flex;
