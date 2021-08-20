@@ -1,5 +1,4 @@
-@media(max-width:576px) {
-    .container {
+    /* .container {
         height: 100vh;
         display: grid;
         grid-template-columns: repeat(2, 1fr);
@@ -10,7 +9,7 @@
             "why introduction"
             "what what"
             "footer footer";
-    }
+    } */
 
     .div-cellphone {
         display: none;
@@ -37,105 +36,56 @@
         margin: auto;
         font-size: 1.3em;
     }
-}
 
-@media(min-width:577px) {
-
-    .container {
-        height: 100vh;
-        display: grid;
-        grid-template-columns: repeat(2, 1fr);
-        grid-template-rows: 80px repeat(4, 1fr) 60px;
-        grid-template-areas:
-            "header header"
-            "title title"
-            "introduction introduction"
-            "why why"
-            "what what"
-            "footer footer";
+    .button {
+        background-color: black;
+        color: #F2F2F2;
+        padding: 8px;
+        margin-top: 5px;
     }
 
-    .div-title {
-        width: 30%;
+    /* 
+    .introduction {
+        grid-area: introduction;
+        display: flex;
+        justify-content: space-between;
+    } */
+
+    /* .ul {
+        display: flex;
+        justify-content: space-between;
+    } */
+
+    .img-cellphone {
+        float: right;
+        margin-right: 30px;
+    }
+
+    .h1 {
+        text-align: center;
+        display: block;
+        font-size: 3em;
+    }
+
+    .h2 {
+        font-size: 2em;
+    }
+
+    .why {
+        grid-area: why;
         padding: 30px;
-        margin: auto;
+        text-align: center;
+        background-color: lightgray;
     }
 
-    .div-cellphone {
-        width: 50%;
-        margin: 0px;
+    .what {
+        grid-area: what;
+        padding: 30px;
+        text-align: center;
+        margin-bottom: 30px;
     }
 
-    .div-attend {
-        width: 50%;
-        text-align: left;
-        padding-left: 30px;
-        padding-top: 120px;
+    .li-feats {
+        margin-top: 3px;
+        list-style-image: url("https://i.ibb.co/3CBt28j/angle-brackets-16.png");
     }
-
-    .p {
-        padding: 10px;
-        width: 20%;
-        margin: auto;
-        font-size: 1.5em;
-    }
-
-    .ul-feats {
-        padding: 10px;
-        width: 30%;
-        margin: auto;
-        font-size: 1.5em;
-    }
-}
-
-.button {
-    background-color: black;
-    color: #F2F2F2;
-    padding: 8px;
-    margin-top: 5px;
-}
-
-.introduction {
-    grid-area: introduction;
-    display: flex;
-    justify-content: space-between;
-}
-
-.ul {
-    display: flex;
-    justify-content: space-between;
-}
-
-.img-cellphone {
-    float: right;
-    margin-right: 30px;
-}
-
-.h1 {
-    text-align: center;
-    display: block;
-    font-size: 3em;
-}
-
-.h2 {
-    font-size: 2em;
-}
-
-.why {
-    grid-area: why;
-    padding: 30px;
-    text-align: center;
-    background-color: lightgray;
-}
-
-.what {
-    grid-area: what;
-    padding: 30px;
-    text-align: center;
-    margin-bottom: 30px;
-}
-
-.li-feats {
-    margin-top: 3px;
-    list-style-image: url("https://i.ibb.co/3CBt28j/angle-brackets-16.png");
-}

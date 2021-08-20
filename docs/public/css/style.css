@@ -11,18 +11,18 @@ html {
 }
 
 .header {
-    grid-area: header;
+    /* grid-area: header; */
     background-color: #F24B6A;
     padding: 15px;
     font-size: 1.5em;
 }
 
-.nav {
+/* .nav {
     display: flex;
     flex-direction: row;
     justify-content: space-between;
     align-items: center;
-}
+} */
 
 .div-title {
     grid-area: title;
@@ -52,12 +52,12 @@ html {
 
 
 .footer {
-    grid-area: footer;
+    /* grid-area: footer; */
     background-image: linear-gradient(#F2F2F2, #0D0D0D);
     color: #F2F2F2;
     font-size: 1.2em;
-    display: flex;
-    justify-content: space-between;
+    /* display: flex; */
+    /* justify-content: space-between; */
     padding: 20px;
 }
 
@@ -65,26 +65,24 @@ html {
     bottom: 10px;
 }
 
-.div-copyright {
+/* .div-copyright {
     display: flex;
     align-items: flex-end;
-}
+} */
 
-.div-social-links {
+/* .div-social-links {
     display: flex;
     flex-direction: column;
     justify-content: space-between;
-}
+} */
 
 .div-social-networks {
-    display: flex;
-    flex-direction: row-reverse;
-    gap: 2px;
+    margin-left: 2px;
 }
 
 .links-invert-color {
     color: #F2F2F2;
-    display: block;
+    /* display: block; */
 }
 
 .img--invert-color {
@@ -93,15 +91,15 @@ html {
 }
 
 .input {
-    display: block;
+    /* display: block; */
 }
 
 .label {
-    display: block;
+    /* display: block; */
 }
 
 .span--block-display {
-    display: block
+    /* display: block */
 }
 
 .span--aling-italic {
