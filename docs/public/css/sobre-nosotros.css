@@ -76,7 +76,6 @@
 /* Style the back side */
 .flip-box-back {
     display: flex;
-    /* flex-wrap: wrap; */
     border-radius: 50%;
     background-color: #F24B6A;
     color: white;
@@ -93,10 +92,6 @@
 .imgFront {
     width: 120px;
     height: 120px;
-}
-
-.span {
-    display: block;
 }
 
 .section-p {

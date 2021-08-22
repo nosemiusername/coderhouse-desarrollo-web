@@ -1,9 +1,5 @@
 @media(max-width:576px) {
 
-    .container {
-        grid-template-rows: 80px 1fr 1fr 60px;
-    }
-
     .testimonial {
         width: 45%;
         position: relative;
