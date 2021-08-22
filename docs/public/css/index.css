@@ -28,7 +28,12 @@
     font-size: 1.3em;
 }
 
-
+.button {
+    background-color: black;
+    color: #F2F2F2;
+    padding: 8px;
+    margin-top: 5px;
+}
 
 .img-cellphone {
     float: right;
