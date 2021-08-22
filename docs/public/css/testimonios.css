@@ -1,22 +1,92 @@
-.container {
-    height: 100vh;
-    display: grid;
-    grid-template-columns: repeat(2, 1fr);
-    grid-template-rows: 80px 400px 1fr 60px;
-    grid-template-areas:
-        "header header"
-        "section section"
-        "section2 section2"
-        "footer footer";
+@media(max-width:576px) {
+
+    .testimonial {
+        width: 45%;
+        position: relative;
+        background-size: cover;
+        margin: 5px 5px;
+        border-radius: 2%;
+    }
+
+    .section {
+        margin: 10px 0px;
+        grid-area: section;
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: space-between;
+        align-items: center;
+        justify-items: center;
+    }
+
+    .blockquote {
+        background-color: black;
+        opacity: 60%;
+        font-size: 1.2;
+        color: white;
+
+    }
+
+    .testimonial-img {
+        display: none;
+    }
+
+    .span {
+        font-size: .7em;
+        color: white
+    }
+
+}
+
+@media(min-width:577px) {
+
+    .identification {
+        position: relative;
+    }
+
+    .testimonial {
+        width: 32%;
+        background-image: none !important;
+    }
+
+    .container {
+        grid-template-rows: 80px 450px 1fr 60px;
+    }
+
+    .section {
+        grid-area: section;
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: space-between;
+        align-items: center;
+        justify-items: center;
+    }
+
+    .blockquote {
+        font-size: 1.8;
+    }
+
+    .testimonial-img {
+        width: 50px;
+        height: 50px;
+        border-radius: 50%;
+        position: absolute;
+        left: 40%;
+        top: -40px;
+    }
+
+    .span {
+        position: absolute;
+        font-size: .7em;
+        left: 40%;
+        top: 8px;
+    }
 }
 
 .h1 {
     display: none;
 }
 
-
 .section {
-    /* margin-left: 60px; */
     grid-area: section;
     display: flex;
     flex-wrap: wrap;
@@ -26,33 +96,10 @@
     justify-items: center;
 }
 
-.testimonial {
-    width: 32%;
-    position: relative;
-}
-
-.testimonial-img {
-    width: 50px;
-    height: 50px;
-    border-radius: 50%;
-    position: absolute;
-    right: 45%;
-    top: 92%;
-
-}
-
 .blockquote {
     width: 70%;
     text-align: center;
     border-style: solid;
-    padding: 3px;
     padding: 15px;
-    margin: auto;
-}
-
-.span {
-    position: absolute;
-    right: 45%;
-    bottom: -60px;
-    font-size: .7em;
+    margin: 25px auto;
 }

@@ -1,17 +1,4 @@
-.container {
-    height: 100vh;
-    display: grid;
-    grid-template-columns: repeat(2, 1fr);
-    grid-template-rows: 80px 1fr 60px;
-    grid-template-areas:
-        "header header"
-        "section section"
-        "footer footer";
-    text-align: justify;
-}
-
 .section {
-    grid-area: section;
     margin: 15px 0px;
 }
 

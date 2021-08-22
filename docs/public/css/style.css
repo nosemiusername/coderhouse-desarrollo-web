@@ -8,20 +8,15 @@
 html {
     font-size: 62.5%;
     font-family: 'Roboto', sans-serif;
+    position: relative;
+    min-height: 100%;
 }
 
 .header {
-    grid-area: header;
+    /* grid-area: header; */
     background-color: #F24B6A;
     padding: 15px;
     font-size: 1.5em;
-}
-
-.nav {
-    display: flex;
-    flex-direction: row;
-    justify-content: space-between;
-    align-items: center;
 }
 
 .div-title {
@@ -52,56 +47,30 @@ html {
 
 
 .footer {
-    grid-area: footer;
     background-image: linear-gradient(#F2F2F2, #0D0D0D);
     color: #F2F2F2;
     font-size: 1.2em;
-    display: flex;
-    justify-content: space-between;
     padding: 20px;
+    position: absolute;
+    bottom: 0;
+    width: 100%
 }
 
 .small {
     bottom: 10px;
 }
 
-.div-copyright {
-    display: flex;
-    align-items: flex-end;
-}
-
-.div-social-links {
-    display: flex;
-    flex-direction: column;
-    justify-content: space-between;
-}
-
 .div-social-networks {
-    display: flex;
-    flex-direction: row-reverse;
-    gap: 2px;
+    margin-left: 2px;
 }
 
 .links-invert-color {
     color: #F2F2F2;
-    display: block;
 }
 
 .img--invert-color {
     width: 50px;
     filter: brightness(0) invert(1);
-}
-
-.input {
-    display: block;
-}
-
-.label {
-    display: block;
-}
-
-.span--block-display {
-    display: block
 }
 
 .span--aling-italic {

@@ -1,59 +1,27 @@
-.container {
-    height: 100vh;
-    display: grid;
-    grid-template-columns: repeat(2, 1fr);
-    grid-template-rows: 80px repeat(4, 1fr) 60px;
-    grid-template-areas:
-        "header header"
-        "title title"
-        "introduction introduction"
-        "why why"
-        "what what"
-        "footer footer";
+.div-apply-attend {
+    margin-top: 100px;
 }
 
 .div-title {
-    width: 30%;
-    padding: 30px;
-    margin: auto;
-}
-
-.introduction {
-    grid-area: introduction;
-    display: flex;
-    justify-content: space-between;
-}
-
-.ul {
-    display: flex;
-    justify-content: space-between;
-}
-
-.div-cellphone {
-    width: 50%;
-    margin: 0px;
+    padding: 5px;
+    text-align: center;
 }
 
 .div-attend {
-    width: 50%;
+    width: 100%;
     text-align: left;
-    padding-left: 30px;
-    padding-top: 120px;
+    margin: 30%;
 }
 
-.img-cellphone {
-    float: right;
-    margin-right: 30px;
+.p {
+    padding-top: 10px;
+    margin: auto;
+    font-size: 1.3em;
 }
 
-.h1 {
-    text-align: center;
-    display: block;
-    font-size: 3em;
-}
-
-.h2 {
-    font-size: 2em;
+.ul-feats {
+    margin: auto;
+    font-size: 1.3em;
 }
 
 .button {
@@ -63,33 +31,27 @@
     margin-top: 5px;
 }
 
+.img-cellphone {
+    float: right;
+    margin-right: 30px;
+}
+
+.h1 {
+    text-align: center;
+    font-size: 3em;
+    padding: 20px;
+}
 
 .why {
-    grid-area: why;
     padding: 30px;
     text-align: center;
     background-color: lightgray;
 }
 
-.p {
-    padding: 10px;
-    width: 20%;
-    margin: auto;
-    font-size: 1.5em;
-}
-
 .what {
-    grid-area: what;
     padding: 30px;
     text-align: center;
-    margin-bottom: 30px;
-}
-
-.ul-feats {
-    padding: 10px;
-    width: 30%;
-    margin: auto;
-    font-size: 1.5em;
+    margin-bottom: 70px;
 }
 
 .li-feats {
