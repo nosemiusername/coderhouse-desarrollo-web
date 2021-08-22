@@ -86,21 +86,9 @@
     }
 }
 
-.container {
-    height: 100vh;
-    display: grid;
-    grid-template-columns: repeat(2, 1fr);
-    grid-template-areas:
-        "header header"
-        "section section"
-        "section2 section2"
-        "footer footer";
-}
-
 .h1 {
     display: none;
 }
-
 
 .section {
     grid-area: section;
