@@ -17,13 +17,6 @@ html {
     font-size: 1.5em;
 }
 
-/* .nav {
-    display: flex;
-    flex-direction: row;
-    justify-content: space-between;
-    align-items: center;
-} */
-
 .div-title {
     grid-area: title;
 }
@@ -65,17 +58,6 @@ html {
     bottom: 10px;
 }
 
-/* .div-copyright {
-    display: flex;
-    align-items: flex-end;
-} */
-
-/* .div-social-links {
-    display: flex;
-    flex-direction: column;
-    justify-content: space-between;
-} */
-
 .div-social-networks {
     margin-left: 2px;
 }
@@ -88,18 +70,6 @@ html {
 .img--invert-color {
     width: 50px;
     filter: brightness(0) invert(1);
-}
-
-.input {
-    /* display: block; */
-}
-
-.label {
-    /* display: block; */
-}
-
-.span--block-display {
-    /* display: block */
 }
 
 .span--aling-italic {
