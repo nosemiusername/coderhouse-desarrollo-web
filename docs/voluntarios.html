@@ -61,21 +61,26 @@
                 alguna
                 organizacion, completa el formulario y te contactaremos en breve.
             </p>
-            <form id="conctactanos" class="form">
-                <label class="label" for="nombre">Nombre</label>
-                <input class="input" type="text" id="nombre" name="name" required placeholder="Nombre" />
-                <label class="label" for="email">Email</label>
-                <input class="input" type="email" id="email" name="email" required placeholder="Email" />
-                <label class="label" for="area">Área</label>
-                <select class="select" name="area" id="area">
-                    <option disabled selected>Área</option>
-                    <option value="Enfermería">Enfermería</option>
-                    <option value="Psicología">Psicología</option>
-                    <option value="Medicina">Medicina</option>
-                    <option value="Otra">Otro</option>
-                </select>
-                <input class="button" type="submit" value="Inscribirme!">
-            </form>
+            <div class="col-8 col-md-4 col-lg-4">
+                <form id="conctactanos" class="form">
+                    <div class="input-group mb-1">
+                        <input class="form-control" type="text" id="nombre" name="name" required placeholder="Nombre" />
+                    </div>
+                    <div class="input-group mb-1">
+                        <input class="form-control" type="email" id="email" name="email" required placeholder="Email" />
+                    </div>
+                    <div class="input-group mb-1">
+                        <select class="form-select" name="area" id="area">
+                            <option disabled selected>Área</option>
+                            <option value="Enfermería">Enfermería</option>
+                            <option value="Psicología">Psicología</option>
+                            <option value="Medicina">Medicina</option>
+                            <option value="Otra">Otro</option>
+                        </select>
+                    </div>
+                    <input class="btn btn-dark" type="submit" value="Inscribirme!">
+                </form>
+            </div>
         </section>
         <footer class="footer content">
             <div class="row">
