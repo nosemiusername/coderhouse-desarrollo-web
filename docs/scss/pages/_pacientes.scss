@@ -1,0 +1,52 @@
+.h1 {
+  display: none;
+}
+
+.p {
+  width: 70%;
+  font-size: 1.8em;
+}
+
+.section {
+  margin: 30px 0px 0px 15px;
+  grid-area: section;
+}
+
+.button {
+  background-color: black;
+  color: #f2f2f2;
+  padding: 8px;
+  margin-top: 20px;
+}
+
+.input {
+  border: none;
+  border-bottom: 1px solid black;
+  padding: 4px;
+  width: 200px;
+}
+
+.input::placeholder {
+  color: lightgray;
+}
+
+.input:focus {
+  outline: none;
+}
+
+.form {
+  margin: 10px 0px 10px;
+  grid-area: form;
+}
+
+.select {
+  color: lightgray;
+  border: none;
+  border-bottom: 1px solid black;
+  padding: 4px;
+  width: 210px;
+}
+
+.select:focus {
+  outline: none;
+}

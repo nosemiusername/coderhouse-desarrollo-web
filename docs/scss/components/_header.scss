@@ -1,0 +1,28 @@
+.header {
+  /* grid-area: header; */
+  background-color: #f24b6a;
+  padding: 15px;
+  font-size: 1.5em;
+}
+
+.li {
+  padding: 5px;
+  color: #f2f2f2;
+  display: inline;
+}
+
+.a {
+  font-weight: bold;
+}
+
+.a:link {
+  color: white;
+}
+
+.a:visited {
+  color: white;
+}
+
+.a:hover {
+  font-weight: 100;
+}
