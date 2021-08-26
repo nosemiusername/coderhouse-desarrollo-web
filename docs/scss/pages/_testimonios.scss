@@ -9,7 +9,6 @@
 
   .section {
     margin: 10px 0px;
-    grid-area: section;
     display: flex;
     flex-wrap: wrap;
     justify-content: space-between;
@@ -44,12 +43,7 @@
     background-image: none !important;
   }
 
-  .container {
-    grid-template-rows: 80px 450px 1fr 60px;
-  }
-
   .section {
-    grid-area: section;
     display: flex;
     flex-wrap: wrap;
     justify-content: space-between;
@@ -67,14 +61,14 @@
     border-radius: 50%;
     position: absolute;
     left: 40%;
-    top: -40px;
+    top: -30px;
   }
 
   .span {
     position: absolute;
     font-size: 0.7em;
     left: 40%;
-    top: 8px;
+    top: 18px;
   }
 }
 
@@ -83,7 +77,6 @@
 }
 
 .section {
-  grid-area: section;
   display: flex;
   flex-wrap: wrap;
   font-size: 1.8rem;
@@ -97,5 +90,5 @@
   text-align: center;
   border-style: solid;
   padding: 15px;
-  margin: 25px auto;
+  margin: 35px auto;
 }
