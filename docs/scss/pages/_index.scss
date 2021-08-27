@@ -1,16 +1,12 @@
-.div-apply-attend {
-  margin-top: 100px;
-}
-
-.div-title {
+.div {
   padding: 5px;
   text-align: center;
 }
 
-.div-attend {
-  width: 100%;
+.div--shifted {
   text-align: left;
-  margin: 30%;
+  padding-top: 100px;
+  padding-left: 0px;
 }
 
 .why__p {
@@ -31,7 +27,7 @@
   margin-top: 5px;
 }
 
-.img-cellphone {
+.img {
   float: right;
   margin-right: 30px;
 }
@@ -49,12 +45,12 @@
 }
 
 .what {
-  padding: 30px;
   text-align: center;
+  padding: 30px;
   margin-bottom: 70px;
 }
 
 .li-feats {
   margin-top: 3px;
-  list-style-image: url("https://i.ibb.co/3CBt28j/angle-brackets-16.png");
+  list-style: none;
 }

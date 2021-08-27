@@ -27,7 +27,7 @@
         <header class="header row">
             <nav class="navbar navbar-dark">
                 <div class="col-2">
-                    <a href="index.html" class="col-md-4"><img id="logo" class="img--invert-color"
+                    <a href="index.html" class="col-md-4"><img id="logo" class="header__img"
                             src="./public/img/contigosalud.png" alt="logo"></a>
                 </div>
                 <div class="col-10 d-flex flex-nowrap align-items-center justify-content-end">
@@ -36,19 +36,20 @@
                         aria-label="Toggle navigation">
                         <span class="navbar-toggler-icon"></span>
                     </button>
-                    <ul class="ul d-none d-md-block d-lg-block">
-                        <li class="li"><a class="a" href="sobre-nosotros.html">Sobre nosotros</a></li>
-                        <li class="li">|</a></li>
-                        <li class="li"><a class="a" href="voluntarios.html">Cómo ser voluntario</a></li>
-                        <li class="li">|</a></li>
-                        <li class="li"><a class="a" href="testimonios.html">Testimonios</a></li>
+                    <ul class="d-none d-md-block d-lg-block">
+                        <li class="header__link"><a class="a" href="sobre-nosotros.html">Sobre nosotros</a></li>
+                        <li class="header__link">|</a></li>
+                        <li class="header__link"><a class="a" href="voluntarios.html">Cómo ser voluntario</a></li>
+                        <li class="header__link">|</a></li>
+                        <li class="header__link"><a class="a" href="testimonios.html">Testimonios</a></li>
                     </ul>
+
             </nav>
             <div class="navbar-collapse collapse" id="navbar-toggler" navbar>
                 <ul class="navbar-nav">
-                    <li class="li"><a class="a" href="sobre-nosotros.html">Sobre nosotros</a></li>
-                    <li class="li"><a class="a" href="voluntarios.html">Cómo ser voluntario</a></li>
-                    <li class="li"><a class="a" href="testimonios.html">Testimonios</a></li>
+                    <li class="header__link"><a class="a" href="sobre-nosotros.html">Sobre nosotros</a></li>
+                    <li class="header__link"><a class="a" href="voluntarios.html">Cómo ser voluntario</a></li>
+                    <li class="header__link"><a class="a" href="testimonios.html">Testimonios</a></li>
                 </ul>
             </div>
         </header>
@@ -196,17 +197,17 @@
         </section>
 
         <footer class="footer row">
-            <div class="div-copyright col-6 d-flex align-items-center">
-                <small class="small">&copy; Copyright 2021 ContigoSalud</small>
+            <div class="col-6 d-flex align-items-center">
+                <small>&copy; Copyright 2021 ContigoSalud</small>
             </div>
-            <div class="div-social-links col-6">
+            <div class="col-6">
                 <div class="content">
                     <div id="social-networks" class="d-flex justify-content-end"">
-                            <i class=" fab fa-instagram-square div-social-networks"></i>
-                        <i class="fab fa-facebook-square div-social-networks"></i>
+                        <i class=" fab fa-instagram-square px-1"></i>
+                        <i class="fab fa-facebook-square"></i>
                     </div>
                     <div id="links" class="d-flex justify-content-end">
-                        <a href="terminos.html" class="links-invert-color">Terminos y condiciones</a>
+                        <a href="terminos.html" class="footer__links">Terminos y condiciones</a>
                     </div>
                 </div>
             </div>

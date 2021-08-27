@@ -7,31 +7,22 @@
   bottom: 0;
   width: 100%; }
 
-.small {
-  bottom: 10px; }
-
-.div-social-networks {
-  margin-left: 2px; }
-
-.links-invert-color {
+.footer__links {
   color: #f2f2f2; }
-
-.img--invert-color {
-  width: 50px;
-  filter: brightness(0) invert(1); }
-
-.span--aling-italic {
-  font-style: italic; }
 
 .header {
   background-color: #f24b6a;
-  padding: 15px;
+  padding: 5px;
   font-size: 1.5em; }
 
-.li {
+.header__link {
   padding: 5px;
   color: #f2f2f2;
   display: inline; }
+
+.header__img {
+  width: 80px;
+  filter: brightness(0) invert(1); }
 
 .a {
   font-weight: bold; }
@@ -45,17 +36,14 @@
 .a:hover {
   font-weight: 100; }
 
-.div-apply-attend {
-  margin-top: 100px; }
-
-.div-title {
+.div {
   padding: 5px;
   text-align: center; }
 
-.div-attend {
-  width: 100%;
+.div--shifted {
   text-align: left;
-  margin: 30%; }
+  padding-top: 100px;
+  padding-left: 0px; }
 
 .why__p {
   padding-top: 10px;
@@ -72,7 +60,7 @@
   padding: 8px;
   margin-top: 5px; }
 
-.img-cellphone {
+.img {
   float: right;
   margin-right: 30px; }
 
@@ -87,19 +75,16 @@
   background-color: lightgray; }
 
 .what {
-  padding: 30px;
   text-align: center;
+  padding: 30px;
   margin-bottom: 70px; }
 
 .li-feats {
   margin-top: 3px;
-  list-style-image: url("https://i.ibb.co/3CBt28j/angle-brackets-16.png"); }
+  list-style: none; }
 
 .h1 {
   display: none; }
-
-.section {
-  margin: 30px 0px 0px 15px; }
 
 .button {
   background-color: black;
@@ -248,7 +233,7 @@
     background-size: cover;
     margin: 5px 5px;
     border-radius: 2%; }
-  .section {
+  .section--wrapped {
     margin: 10px 0px;
     display: flex;
     flex-wrap: wrap;
@@ -272,7 +257,7 @@
   .testimonial {
     width: 32%;
     background-image: none !important; }
-  .section {
+  .section--wrapped {
     display: flex;
     flex-wrap: wrap;
     justify-content: space-between;
@@ -296,7 +281,7 @@
 .h1 {
   display: none; }
 
-.section {
+.section-wrapped {
   display: flex;
   flex-wrap: wrap;
   font-size: 1.8rem;
@@ -313,9 +298,6 @@
 
 .h1 {
   display: none; }
-
-.section {
-  margin: 30px 0px 0px 15px; }
 
 .button {
   display: block;
@@ -362,3 +344,6 @@ html {
 .section__p {
   width: 70%;
   font-size: 1em; }
+
+.section {
+  margin: 30px 0px 0px 15px; }

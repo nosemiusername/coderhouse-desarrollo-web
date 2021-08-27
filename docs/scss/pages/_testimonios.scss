@@ -7,7 +7,7 @@
     border-radius: 2%;
   }
 
-  .section {
+  .section--wrapped {
     margin: 10px 0px;
     display: flex;
     flex-wrap: wrap;
@@ -43,7 +43,7 @@
     background-image: none !important;
   }
 
-  .section {
+  .section--wrapped {
     display: flex;
     flex-wrap: wrap;
     justify-content: space-between;
@@ -76,7 +76,7 @@
   display: none;
 }
 
-.section {
+.section-wrapped {
   display: flex;
   flex-wrap: wrap;
   font-size: 1.8rem;
