@@ -2,3 +2,8 @@ $black-color: #0d0d0d;
 $red-color: #f24b6a;
 $white-color: #f2f2f2;
 $grey-color: lightgray;
+$breakpoints: (
+  "small": 767px,
+  "medium": 992px,
+  "large": 1200px,
+) !default;
