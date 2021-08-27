@@ -1,3 +1,5 @@
+/*  sobre-nosotros */
+
 .h1 {
   display: none;
 }
@@ -69,8 +71,8 @@
 .flip-box-back {
   display: flex;
   border-radius: 50%;
-  background-color: #f24b6a;
-  color: white;
+  background-color: $red-color;
+  color: $white-color;
   transform: rotateY(180deg);
   align-items: center;
   justify-items: center;
@@ -94,6 +96,6 @@
 
 .div__span {
   font-size: 0.7em;
-  color: white;
+  color: $white-color;
   margin: 0px 4px;
 }

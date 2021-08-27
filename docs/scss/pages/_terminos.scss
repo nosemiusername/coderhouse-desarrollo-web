@@ -1,3 +1,5 @@
+/*  terminos */
+
 .tntSection {
   margin: 15px 0px;
 }
@@ -9,8 +11,8 @@
 .h2 {
   padding: 5px;
   margin-right: 10px;
-  background-color: black;
-  color: #f2f2f2;
+  background-color: $black-color;
+  color: $white-color;
 }
 
 .tntSection__p {
@@ -26,5 +28,5 @@
 }
 
 .url {
-  color: #f24b6a;
+  color: $red-color;
 }

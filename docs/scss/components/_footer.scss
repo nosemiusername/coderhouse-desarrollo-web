@@ -1,13 +1,13 @@
 .footer {
-  background-image: linear-gradient(#f2f2f2, #0d0d0d);
-  color: #f2f2f2;
+  background-image: linear-gradient($white-color, $black-color);
+  color: $white-color;
   font-size: 1.2em;
   padding: 20px;
   position: absolute;
   bottom: 0;
   width: 100%;
-}
 
-.footer__links {
-  color: #f2f2f2;
+  &__links {
+    color: $white-color;
+  }
 }
