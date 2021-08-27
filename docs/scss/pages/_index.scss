@@ -21,8 +21,8 @@
 }
 
 .button {
-  background-color: black;
-  color: #f2f2f2;
+  background-color: $black-color;
+  color: $white-color;
   padding: 8px;
   margin-top: 5px;
 }
@@ -41,7 +41,7 @@
 .why {
   padding: 30px;
   text-align: center;
-  background-color: lightgray;
+  background-color: $grey-color;
 }
 
 .what {

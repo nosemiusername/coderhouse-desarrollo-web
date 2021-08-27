@@ -17,10 +17,10 @@
   }
 
   .blockquote {
-    background-color: black;
+    background-color: $black-color;
     opacity: 60%;
     font-size: 1.2;
-    color: white;
+    color: $white-color;
   }
 
   .testimonial-img {
@@ -29,7 +29,7 @@
 
   .span {
     font-size: 0.7em;
-    color: white;
+    color: $white-color;
   }
 }
 

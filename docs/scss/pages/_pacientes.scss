@@ -3,21 +3,21 @@
 }
 
 .button {
-  background-color: black;
-  color: #f2f2f2;
+  background-color: $black-color;
+  color: $white-color;
   padding: 8px;
   margin-top: 20px;
 }
 
 .input {
   border: none;
-  border-bottom: 1px solid black;
+  border-bottom: 1px solid $black-color;
   padding: 4px;
   width: 200px;
 }
 
 .input::placeholder {
-  color: lightgray;
+  color: $grey-color;
 }
 
 .input:focus {
@@ -29,9 +29,9 @@
 }
 
 .select {
-  color: lightgray;
+  color: $grey-color;
   border: none;
-  border-bottom: 1px solid black;
+  border-bottom: 1px solid $black-color;
   padding: 4px;
   width: 210px;
 }
