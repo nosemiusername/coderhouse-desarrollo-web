@@ -13,7 +13,6 @@
     <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@100&display=swap" rel="stylesheet">
     <!-- CSS propio -->
     <link href="./public/css/style.css" rel="stylesheet" type="text/css">
-    <link href="./public/css/terminos.css" rel="stylesheet" type="text/css">
     <!-- CDN Boostrap -->
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet"
         integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
@@ -28,7 +27,7 @@
         <header class="header row">
             <nav class="navbar navbar-dark">
                 <div class="col-2">
-                    <a href="index.html" class="col-md-4"><img id="logo" class="img--invert-color"
+                    <a href="index.html" class="col-md-4"><img id="logo" class="header__img"
                             src="./public/img/contigosalud.png" alt="logo"></a>
                 </div>
                 <div class="col-10 d-flex flex-nowrap align-items-center justify-content-end">
@@ -37,27 +36,28 @@
                         aria-label="Toggle navigation">
                         <span class="navbar-toggler-icon"></span>
                     </button>
-                    <ul class="ul d-none d-md-block d-lg-block">
-                        <li class="li"><a class="a" href="sobre-nosotros.html">Sobre nosotros</a></li>
-                        <li class="li">|</a></li>
-                        <li class="li"><a class="a" href="voluntarios.html">Cómo ser voluntario</a></li>
-                        <li class="li">|</a></li>
-                        <li class="li"><a class="a" href="testimonios.html">Testimonios</a></li>
+                    <ul class="d-none d-md-block d-lg-block">
+                        <li class="header__link"><a class="a" href="sobre-nosotros.html">Sobre nosotros</a></li>
+                        <li class="header__link">|</a></li>
+                        <li class="header__link"><a class="a" href="voluntarios.html">Cómo ser voluntario</a></li>
+                        <li class="header__link">|</a></li>
+                        <li class="header__link"><a class="a" href="testimonios.html">Testimonios</a></li>
                     </ul>
+
             </nav>
             <div class="navbar-collapse collapse" id="navbar-toggler" navbar>
                 <ul class="navbar-nav">
-                    <li class="li"><a class="a" href="sobre-nosotros.html">Sobre nosotros</a></li>
-                    <li class="li"><a class="a" href="voluntarios.html">Cómo ser voluntario</a></li>
-                    <li class="li"><a class="a" href="testimonios.html">Testimonios</a></li>
+                    <li class="header__link"><a class="a" href="sobre-nosotros.html">Sobre nosotros</a></li>
+                    <li class="header__link"><a class="a" href="voluntarios.html">Cómo ser voluntario</a></li>
+                    <li class="header__link"><a class="a" href="testimonios.html">Testimonios</a></li>
                 </ul>
             </div>
         </header>
         <h1 class="h1">Terminos y Condiciones</h1>
         <!-- Seccion detalle t&d -->
-        <section class="section">
+        <section class="tntSection">
             <h2 class="h2">Condiciones de uso</h2>
-            <p class="p">
+            <p class="tntSection__p">
                 Estos Términos y Condiciones de Servicio (en adelante, “los términos”) rigen el uso y acceso a la
                 plataforma, y
                 cualquier información capturada por la misma. Las personas deben aceptar estos términos de uso, los
@@ -95,7 +95,7 @@
                 u
                 otro entendimiento o representación, salvo lo expresamente establecido en este documento.
             </p>
-            <p class="p">
+            <p class="tntSection__p">
                 En consecuencia, al usar la plataforma, el usuario manifiesta y garantiza lo siguiente:
             </p>
 
@@ -109,7 +109,7 @@
                 <li>Que asume todas las obligaciones aquí descritas.</li>
             </ul>
             <h2 class="h2">Condiciones de acceso</h2>
-            <p class="p">
+            <p class="tntSection__p">
                 Para usar <a class="url" href="#">contigosalud.cl</a> debe registrarse con su mail, rut y crear una
                 contraseña.
                 Usted es
@@ -141,7 +141,7 @@
                 cosa
                 por escrito, usted solo puede poseer una cuenta de usuario.
             </p>
-            <p class="p">
+            <p class="tntSection__p">
                 <a class="url" href="#">contigosalud.cl</a> ofrece un servicio de teleorientación gratuita a través de
                 videollamada
                 con
@@ -181,7 +181,7 @@
                     de</li>
                 <li>transmisión.</li>
             </ul>
-            <p class="p">
+            <p class="tntSection__p">
                 Trabajamos día a día por reducir estos riesgos al mínimo y que generar los menores impactos posibles en
                 los
                 pacientes.
@@ -197,17 +197,17 @@
         </section>
 
         <footer class="footer row">
-            <div class="div-copyright col-6 d-flex align-items-center">
-                <small class="small">&copy; Copyright 2021 ContigoSalud</small>
+            <div class="col-6 d-flex align-items-center">
+                <small>&copy; Copyright 2021 ContigoSalud</small>
             </div>
-            <div class="div-social-links col-6">
+            <div class="col-6">
                 <div class="content">
                     <div id="social-networks" class="d-flex justify-content-end"">
-                            <i class=" fab fa-instagram-square div-social-networks"></i>
-                        <i class="fab fa-facebook-square div-social-networks"></i>
+                        <i class=" fab fa-instagram-square px-1"></i>
+                        <i class="fab fa-facebook-square"></i>
                     </div>
                     <div id="links" class="d-flex justify-content-end">
-                        <a href="terminos.html" class="links-invert-color">Terminos y condiciones</a>
+                        <a href="terminos.html" class="footer__links">Terminos y condiciones</a>
                     </div>
                 </div>
             </div>

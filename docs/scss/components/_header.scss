@@ -1,0 +1,32 @@
+.header {
+  background-color: #f24b6a;
+  padding: 5px;
+  font-size: 1.5em;
+}
+
+.header__link {
+  padding: 5px;
+  color: #f2f2f2;
+  display: inline;
+}
+
+.header__img {
+  width: 80px;
+  filter: brightness(0) invert(1);
+}
+
+.a {
+  font-weight: bold;
+}
+
+.a:link {
+  color: white;
+}
+
+.a:visited {
+  color: white;
+}
+
+.a:hover {
+  font-weight: 100;
+}

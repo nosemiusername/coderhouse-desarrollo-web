@@ -1,0 +1,17 @@
+{
+  "name": "docs",
+  "version": "1.0.0",
+  "description": "- Incorpora la estructura básica de html5 - Incluye la etiquetas vista usando wireframe - Se agraga desde google font \"roboto\" - Se agregan comentarios - Se agrega un archivo css para aproximarse al diseño propuesto",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "build": "node-sass --include-path scss scss/style.scss public/css/style.css",
+    "start": "nodemon -e scss -x \"npm run build\" "
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "node-sass": "^6.0.1"
+  }
+}

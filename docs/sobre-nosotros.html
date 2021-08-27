@@ -13,7 +13,6 @@
     <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@100&display=swap" rel="stylesheet">
     <!-- CSS propio -->
     <link href="./public/css/style.css" rel="stylesheet" type="text/css">
-    <link href="./public/css/sobre-nosotros.css" rel="stylesheet" type="text/css">
     <!-- CDN Boostrap -->
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet"
         integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
@@ -28,7 +27,7 @@
         <header class="header row">
             <nav class="navbar navbar-dark">
                 <div class="col-2">
-                    <a href="index.html" class="col-md-4"><img id="logo" class="img--invert-color"
+                    <a href="index.html" class="col-md-4"><img id="logo" class="header__img"
                             src="./public/img/contigosalud.png" alt="logo"></a>
                 </div>
                 <div class="col-10 d-flex flex-nowrap align-items-center justify-content-end">
@@ -37,26 +36,28 @@
                         aria-label="Toggle navigation">
                         <span class="navbar-toggler-icon"></span>
                     </button>
-                    <ul class="ul d-none d-md-block d-lg-block">
-                        <li class="li"><a class="a" href="sobre-nosotros.html">Sobre nosotros</a></li>
-                        <li class="li">|</a></li>
-                        <li class="li"><a class="a" href="voluntarios.html">Cómo ser voluntario</a></li>
-                        <li class="li">|</a></li>
-                        <li class="li"><a class="a" href="testimonios.html">Testimonios</a></li>
+                    <ul class="d-none d-md-block d-lg-block">
+                        <li class="header__link"><a class="a" href="sobre-nosotros.html">Sobre nosotros</a></li>
+                        <li class="header__link">|</a></li>
+                        <li class="header__link"><a class="a" href="voluntarios.html">Cómo ser voluntario</a></li>
+                        <li class="header__link">|</a></li>
+                        <li class="header__link"><a class="a" href="testimonios.html">Testimonios</a></li>
                     </ul>
+
             </nav>
             <div class="navbar-collapse collapse" id="navbar-toggler" navbar>
                 <ul class="navbar-nav">
-                    <li class="li"><a class="a" href="sobre-nosotros.html">Sobre nosotros</a></li>
-                    <li class="li"><a class="a" href="voluntarios.html">Cómo ser voluntario</a></li>
-                    <li class="li"><a class="a" href="testimonios.html">Testimonios</a></li>
+                    <li class="header__link"><a class="a" href="sobre-nosotros.html">Sobre nosotros</a></li>
+                    <li class="header__link"><a class="a" href="voluntarios.html">Cómo ser voluntario</a></li>
+                    <li class="header__link"><a class="a" href="testimonios.html">Testimonios</a></li>
                 </ul>
             </div>
         </header>
         <!-- Seccion para instoducir al equipo -->
         <h1 class="h1">Sobre Nosotros</h1>
         <section id='origen' class="section-origen">
-            <p class="p"> Nos conocimos trabajando en nuestro querido Hospital San Borja, y pasado el tiempo nos
+            <p class="section__p"> Nos conocimos trabajando en nuestro querido Hospital San Borja, y pasado el tiempo
+                nos
                 reeencontramos, para
                 iniciar la idea de contigosalud. Al poco andar se sumaron los primeros entusiastas para desarrollar la
                 primera version. Conformamos un team de desarrollo, uno de gestion de usuarios, y otro clínico.</p>
@@ -71,12 +72,13 @@
                             <img class="imgFront" src="./public/img/daniel.jpg">
                         </div>
                         <div class="flip-box-back">
-                            <span class="span">Daniel Cebulj</span>
-                            <span class="span">CEO y cofounder</span>
+                            <span class="div__span">Daniel Cebulj</span>
+                            <span class="div__span">CEO y cofounder</span>
                         </div>
                     </div>
                 </div>
-                <p class="section-p"> Kinesiolo e Ingeniero Comercial, se ha desenvuelto entre la clinica y la
+                <p class="div__p d-flex align-items-center"> Kinesiolo e Ingeniero Comercial, se ha desenvuelto entre la
+                    clinica y la
                     gestion
                     hospitalaria, así como tambien en areas de innovacion y emprendimiento. Durante la pandemia, fue
                     llamado
@@ -90,12 +92,13 @@
                             <img class="imgFront" src="./public/img/rafael.jpg">
                         </div>
                         <div class="flip-box-back">
-                            <span class="span">Rafael Mascayano</span>
-                            <span class="span">CTO y cofounder</span>
+                            <span class="div__span">Rafael Mascayano</span>
+                            <span class="div__span">CTO y cofounder</span>
                         </div>
                     </div>
                 </div>
-                <p class="section-p">Informático de profesión, emprendedor de pasión. Ha creado dos empresas de
+                <p class="div__p d-flex align-items-center">Informático de profesión, emprendedor de pasión. Ha creado
+                    dos empresas de
                     desarrollo
                     de software y desarrollo de electrónica. Desde el 2015 que trabaja vinculado a la informática
                     médica.
@@ -103,18 +106,19 @@
             </div>
         </section>
 
+
         <footer class="footer row">
-            <div class="div-copyright col-6 d-flex align-items-center">
-                <small class="small">&copy; Copyright 2021 ContigoSalud</small>
+            <div class="col-6 d-flex align-items-center">
+                <small>&copy; Copyright 2021 ContigoSalud</small>
             </div>
-            <div class="div-social-links col-6">
+            <div class="col-6">
                 <div class="content">
                     <div id="social-networks" class="d-flex justify-content-end"">
-                            <i class=" fab fa-instagram-square div-social-networks"></i>
-                        <i class="fab fa-facebook-square div-social-networks"></i>
+                        <i class=" fab fa-instagram-square px-1"></i>
+                        <i class="fab fa-facebook-square"></i>
                     </div>
                     <div id="links" class="d-flex justify-content-end">
-                        <a href="terminos.html" class="links-invert-color">Terminos y condiciones</a>
+                        <a href="terminos.html" class="footer__links">Terminos y condiciones</a>
                     </div>
                 </div>
             </div>
