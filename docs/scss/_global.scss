@@ -1,11 +1,13 @@
 /*  global functions */
 
 @mixin respond-to($breakpoint) {
-  @if map-has-key($breakpoints, $breakpoint) {
-    @media (min-width: map-get($breakpoints, $breakpoint)) {
+  @if $breakpoint == "small" {
+    @media (max-width: 576px) {
       @content;
     }
   } @else {
-    @warn "No value for #{$breakpoint}";
+    @media (min-width: 577px) {
+      @content;
+    }
   }
 }
