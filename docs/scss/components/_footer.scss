@@ -10,4 +10,12 @@
   &__links {
     color: $white-color;
   }
+
+  &__links:link {
+    color: $white-color;
+  }
+
+  &__links:visited {
+    color: $white-color;
+  }
 }

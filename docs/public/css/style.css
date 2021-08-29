@@ -10,6 +10,10 @@
   width: 100%; }
   .footer__links {
     color: #f2f2f2; }
+  .footer__links:link {
+    color: #f2f2f2; }
+  .footer__links:visited {
+    color: #f2f2f2; }
 
 .header {
   background-color: #f24b6a;
