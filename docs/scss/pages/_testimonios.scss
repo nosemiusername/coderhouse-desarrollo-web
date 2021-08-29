@@ -1,20 +1,65 @@
-/*  testimonios */
+@include respond-to("small") {
+  .testimonial {
+    width: 45%;
+    position: relative;
+    background-size: cover;
+    margin: 5px 5px;
+    border-radius: 2%;
+  }
+
+  .blockquote {
+    background-color: black;
+    opacity: 60%;
+    color: white;
+  }
+
+  .testimonial-img {
+    display: none;
+  }
+
+  .span {
+    color: white;
+  }
+}
+
+@include respond-to("medium") {
+  .identification {
+    position: relative;
+  }
+
+  .testimonial {
+    width: 32%;
+    background-image: none !important;
+  }
+
+  .testimonial-img {
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+    position: absolute;
+    left: 40%;
+    top: -30px;
+  }
+
+  .span {
+    position: absolute;
+    left: 40%;
+    top: 18px;
+  }
+}
 
 .h1 {
   display: none;
 }
 
 .section-wrapped {
+  grid-area: section;
   display: flex;
   flex-wrap: wrap;
   font-size: 1.8rem;
   justify-content: space-between;
   align-items: center;
   justify-items: center;
-
-  @include respond-to("small") {
-    margin: 10px 0px;
-  }
 }
 
 .blockquote {
@@ -23,74 +68,12 @@
   border-style: solid;
   padding: 15px;
   margin: 35px auto;
-
-  @include respond-to("small") {
-    .blockquote {
-      background-color: $black-color;
-      opacity: 60%;
-      font-size: 1.2;
-      color: $white-color;
-    }
-  }
 }
 
-.identification {
-  position: relative;
-}
-
-.testimonial {
-  @include respond-to("small") {
-    width: 45%;
-    position: relative;
-    background-size: cover;
-    margin: 5px 5px;
-    border-radius: 2%;
-  }
-
-  @include respond-to("medium") {
-    width: 32%;
-    background-image: none !important;
-  }
-}
-
-.testimonial-img {
-  @include respond-to("small") {
-    .testimonial-img {
-      display: none;
-    }
-  }
-
-  @include respond-to("medium") {
-    width: 50px;
-    height: 50px;
-    border-radius: 50%;
-    position: absolute;
-    left: 40%;
-    top: -30px;
-  }
-}
-
-.span {
-  @include respond-to("small") {
-    font-size: 0.7em;
-    color: $white-color;
-  }
-
-  @include respond-to("medium") {
-    position: absolute;
-    font-size: 0.7em;
-    left: 40%;
-    top: 18px;
-    color: $black-color;
-  }
-}
-
-@media (max-width: 576px) {
-  .testimonial {
-    width: 45%;
-    position: relative;
-    background-size: cover;
-    margin: 5px 5px;
-    border-radius: 2%;
-  }
+.section {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  align-items: center;
+  justify-items: center;
 }

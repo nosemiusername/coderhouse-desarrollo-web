@@ -229,20 +229,51 @@
 .url {
   color: #f24b6a; }
 
-/*  testimonios */
+@media (max-width: 576px) {
+  .testimonial {
+    width: 45%;
+    position: relative;
+    background-size: cover;
+    margin: 5px 5px;
+    border-radius: 2%; }
+  .blockquote {
+    background-color: black;
+    opacity: 60%;
+    color: white; }
+  .testimonial-img {
+    display: none; }
+  .span {
+    color: white; } }
+
+@media (min-width: 577px) {
+  .identification {
+    position: relative; }
+  .testimonial {
+    width: 32%;
+    background-image: none !important; }
+  .testimonial-img {
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+    position: absolute;
+    left: 40%;
+    top: -30px; }
+  .span {
+    position: absolute;
+    left: 40%;
+    top: 18px; } }
+
 .h1 {
   display: none; }
 
 .section-wrapped {
+  grid-area: section;
   display: flex;
   flex-wrap: wrap;
   font-size: 1.8rem;
   justify-content: space-between;
   align-items: center;
   justify-items: center; }
-  @media (min-width: 767px) {
-    .section-wrapped {
-      margin: 10px 0px; } }
 
 .blockquote {
   width: 70%;
@@ -250,54 +281,13 @@
   border-style: solid;
   padding: 15px;
   margin: 35px auto; }
-  @media (min-width: 767px) {
-    .blockquote .blockquote {
-      background-color: #0d0d0d;
-      opacity: 60%;
-      font-size: 1.2;
-      color: #f2f2f2; } }
 
-.identification {
-  position: relative; }
-
-@media (min-width: 767px) {
-  .testimonial {
-    width: 45%;
-    position: relative;
-    background-size: cover;
-    margin: 5px 5px;
-    border-radius: 2%; } }
-
-@media (min-width: 992px) {
-  .testimonial {
-    width: 32%;
-    background-image: none !important; } }
-
-@media (min-width: 767px) {
-  .testimonial-img .testimonial-img {
-    display: none; } }
-
-@media (min-width: 992px) {
-  .testimonial-img {
-    width: 50px;
-    height: 50px;
-    border-radius: 50%;
-    position: absolute;
-    left: 40%;
-    top: -30px; } }
-
-@media (min-width: 767px) {
-  .span {
-    font-size: 0.7em;
-    color: #f2f2f2; } }
-
-@media (min-width: 992px) {
-  .span {
-    position: absolute;
-    font-size: 0.7em;
-    left: 40%;
-    top: 18px;
-    color: #0d0d0d; } }
+.section {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  align-items: center;
+  justify-items: center; }
 
 /*  voluntarios */
 .h1 {
