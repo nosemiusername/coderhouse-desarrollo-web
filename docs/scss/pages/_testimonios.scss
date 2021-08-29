@@ -84,3 +84,13 @@
     color: $black-color;
   }
 }
+
+@media (max-width: 576px) {
+  .testimonial {
+    width: 45%;
+    position: relative;
+    background-size: cover;
+    margin: 5px 5px;
+    border-radius: 2%;
+  }
+}
