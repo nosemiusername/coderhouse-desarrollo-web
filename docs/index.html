@@ -40,14 +40,14 @@
                     </button>
                     <ul class="d-none d-md-block d-lg-block">
                         <li class="header__link"><a class="a" href="sobre-nosotros.html">Sobre nosotros</a></li>
-                        <li class="header__link">|</a></li>
+                        <li class="header__link">|</li>
                         <li class="header__link"><a class="a" href="voluntarios.html">Cómo ser voluntario</a></li>
-                        <li class="header__link">|</a></li>
+                        <li class="header__link">|</li>
                         <li class="header__link"><a class="a" href="testimonios.html">Testimonios</a></li>
                     </ul>
-
+                </div>
             </nav>
-            <div class="navbar-collapse collapse" id="navbar-toggler" navbar>
+            <div class="navbar-collapse collapse" id="navbar-toggler">
                 <ul class="navbar-nav">
                     <li class="header__link"><a class="a" href="sobre-nosotros.html">Sobre nosotros</a></li>
                     <li class="header__link"><a class="a" href="voluntarios.html">Cómo ser voluntario</a></li>
@@ -60,18 +60,17 @@
         </div>
         <!-- Primera sección y que debería entenderse el call to action para ir a la atención -->
         <section id="introduction" class="row">
-            <div id="cellphone-div" class="col-6 d-none d-sm-block d-md-none"">
-                <img id=" cellphone-img" class="img" src="public/img/iphone.png" alt="cellphone" width="250">
+            <div class="col-6 d-none d-sm-block d-md-none">
+                <img class="img" src="public/img/iphone.png" alt="cellphone" width="250">
             </div>
-            <div id="cellphone-div" class="col-md-9 col-lg-7 d-none d-md-block"">
-                <img id=" cellphone-img" class="img my-5" src="public/img/iphone-landscape.png" alt="cellphone"
-                height="250">
+            <div class="col-md-9 col-lg-7 d-none d-md-block">
+                <img class="img my-5" src="public/img/iphone-landscape.png" alt="cellphone" height="250">
             </div>
-            <div id="apply-attend" class="div div--shifted col-6 col-md-3 col-lg-5 d-none d-sm-block">
+            <div class="div div--shifted col-6 col-md-3 col-lg-5 d-none d-sm-block">
                 <h2>Inicia ahora una atención</h2>
                 <button class="btn btn-dark" onclick="location.href='pacientes.html'">Solicitar atención</button>
             </div>
-            <div id="apply-attend" class="div col-4 offset-4 d-block d-sm-none">
+            <div class="div col-4 offset-4 d-block d-sm-none">
                 <h2>Inicia ahora una atención</h2>
                 <button class="btn btn-dark mb-3 p-3" onclick="location.href='pacientes.html'">Solicitar
                     atención</button>
@@ -79,8 +78,8 @@
         </section>
         <!-- Sección para explicar las razones de por que se realiza el proyecto -->
         <div class="d-block d-md-none">
-            <section id="why" class="why row">
-                <div class="col-4 offset-4">
+            <section class="why row">
+                <div class="">
                     <h2>¿Por qué lo hacemos?</h2>
                     <p class="why__p">
                         Porque la pandemia ha evidenciado la dificultades de acceso a las atenciones y de calidad.
@@ -92,7 +91,7 @@
             </section>
             <!-- Sección para detallar lo que se ofrece -->
             <section id="what" class="what row">
-                <div class="col-4 offset-4">
+                <div class="">
                     <h2> ¿Qué ofrecemos?</h2>
                     <ul class="ul-feats ">
                         <li class="li-feats">- Es completamente gratuito</li>
@@ -126,51 +125,6 @@
                     </ul>
                 </div>
             </section>
-            <div class="what col-10 offset-2">
-                <!-- <h2>Condiciones de uso</h2> -->
-                <p class="tntSection__p">
-                    Estos Términos y Condiciones de Servicio (en adelante, “los términos”) rigen el uso y acceso a la
-                    plataforma, y
-                    cualquier información capturada por la misma. Las personas deben aceptar estos términos de uso, los
-                    cuales
-                    tienen un carácter obligatorio y vinculante, si usted no acepta los términos y condiciones deberá
-                    abstenerse
-                    de
-                    utilizar la aplicación.
-                    Mediante el uso de la plataforma, el usuario acepta la utilización de la información capturada por
-                    aquella,
-                    en
-                    los términos y condiciones establecidos en estos términos y el tratamiento de acuerdo con la
-                    política de
-                    privacidad. El usuario declara haber leído y aceptado los términos, condiciones. En caso que el
-                    usuario
-                    no
-                    esté
-                    de acuerdo con estos términos, deberá abstenerse de utilizar los servicios que proporciona la
-                    plataforma,
-                    sea
-                    que la desinstale o simplemente deje de usarla. El usuario que infrinja los presentes términos y
-                    condiciones
-                    será dado de baja de la plataforma.
-                    El Usuario entiende y acepta que los términos pueden ser modificados en cualquier momento, sin
-                    notificación
-                    o
-                    autorización previa del usuario y al sólo arbitrio de la Fundación ContigoSalud. Sin perjuicio de lo
-                    anterior,
-                    cualquier nuevo servicio, modificación, supresión o ampliación de los servicios será informado en la
-                    plataforma.
-                    La utilización del sistema con posterioridad a la publicación de una modificación constituye
-                    aceptación
-                    de
-                    la
-                    misma.
-                    Los presentes términos constituyen un acuerdo total entre las partes, no existiendo pactos orales,
-                    escritos
-                    u
-                    otro entendimiento o representación, salvo lo expresamente establecido en este documento.
-                </p>
-            </div>
-
         </div>
         <!-- Seccion para el footer -->
         <footer class="footer row">
@@ -179,7 +133,7 @@
             </div>
             <div class="col-6">
                 <div class="content">
-                    <div id="social-networks" class="d-flex justify-content-end"">
+                    <div id="social-networks" class="d-flex justify-content-end">
                         <i class=" fab fa-instagram-square px-1"></i>
                         <i class="fab fa-facebook-square"></i>
                     </div>
