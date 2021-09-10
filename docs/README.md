@@ -1,7 +1,5 @@
-# Desafío 1
+# Servidores, seguridad y SEO & Subida al servidor
 
-- Incorpora la estructura básica de html5
-- Incluye la etiquetas vista usando wireframe
-- Se agraga desde google font "roboto"
-- Se agregan comentarios
-- Se agrega un archivo css para aproximarse al diseño propuesto
+- Se aplican correcciones de diseño sugeridas por ayudante en el index: agregar mas contenido al footer, quitar la seccion de terminos y condiciones del index, estilear el div gris, corregir el margen en vista smail
+- Se aplica SEO en cada página
+- Se aplicaron correcciones en funcion de Lighthouse
