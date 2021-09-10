@@ -1,5 +1,6 @@
 /*  global functions */
 /*  variables */
+/* footer */
 .footer {
   background-image: linear-gradient(#f2f2f2, #0d0d0d);
   color: #f2f2f2;
@@ -8,13 +9,16 @@
   position: absolute;
   bottom: 0;
   width: 100%; }
-  .footer__links {
+  .footer__ul {
+    padding-top: 10px; }
+  .footer__li {
     color: #f2f2f2; }
-  .footer__links:link {
+  .footer__li:link {
     color: #f2f2f2; }
-  .footer__links:visited {
+  .footer__li:visited {
     color: #f2f2f2; }
 
+/* header */
 .header {
   background-color: #f24b6a;
   padding: 5px;
@@ -133,7 +137,7 @@
   margin: 30px 0px 0px 15px; }
 
 .section-person {
-  margin: 30px 0px 90px 15px; }
+  margin: 30px 0px 150px 15px; }
 
 .origen-img {
   margin-top: 15px;
