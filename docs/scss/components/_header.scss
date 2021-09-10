@@ -1,3 +1,5 @@
+/* header */
+
 .header {
   background-color: $red-color;
   padding: 5px;
@@ -10,7 +12,6 @@
   }
 
   &__img {
-    width: 80px;
     filter: brightness(0) invert(1);
   }
 }

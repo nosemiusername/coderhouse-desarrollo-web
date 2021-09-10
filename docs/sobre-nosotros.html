@@ -5,6 +5,8 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Cómo nace el equipo y quienes lo conforman">
+    <meta name="keywords" content="Equipo, CTO, CEO">
     <!-- Assets para iconos de redes sociales -->
     <script src="https://kit.fontawesome.com/339c667abf.js" crossorigin="anonymous"></script>
     <!-- Fuente de google -->
@@ -27,8 +29,8 @@
         <header class="header row">
             <nav class="navbar navbar-dark">
                 <div class="col-2">
-                    <a href="index.html" class="col-md-4"><img id="logo" class="header__img"
-                            src="./public/img/contigosalud.png" alt="logo"></a>
+                    <a href="index.html" class="col-md-4"><img id="logo" width="80" height="64" class="header__img"
+                            src="./public/img/contigosalud.avif" alt="logo"></a>
                 </div>
                 <div class="col-10 d-flex flex-nowrap align-items-center justify-content-end">
                     <button class="navbar-toggler d-block d-md-none" type="button" data-bs-toggle="collapse"
@@ -38,14 +40,14 @@
                     </button>
                     <ul class="d-none d-md-block d-lg-block">
                         <li class="header__link"><a class="a" href="sobre-nosotros.html">Sobre nosotros</a></li>
-                        <li class="header__link">|</a></li>
+                        <li class="header__link">|</li>
                         <li class="header__link"><a class="a" href="voluntarios.html">Cómo ser voluntario</a></li>
-                        <li class="header__link">|</a></li>
+                        <li class="header__link">|</li>
                         <li class="header__link"><a class="a" href="testimonios.html">Testimonios</a></li>
                     </ul>
-
+                </div>
             </nav>
-            <div class="navbar-collapse collapse" id="navbar-toggler" navbar>
+            <div class="navbar-collapse collapse" id="navbar-toggler">
                 <ul class="navbar-nav">
                     <li class="header__link"><a class="a" href="sobre-nosotros.html">Sobre nosotros</a></li>
                     <li class="header__link"><a class="a" href="voluntarios.html">Cómo ser voluntario</a></li>
@@ -55,21 +57,21 @@
         </header>
         <!-- Seccion para instoducir al equipo -->
         <h1 class="h1">Sobre Nosotros</h1>
-        <section id='origen' class="section-origen">
+        <div id='origen' class="section-origen">
             <p class="section__p"> Nos conocimos trabajando en nuestro querido Hospital San Borja, y pasado el tiempo
                 nos
                 reeencontramos, para
                 iniciar la idea de contigosalud. Al poco andar se sumaron los primeros entusiastas para desarrollar la
                 primera version. Conformamos un team de desarrollo, uno de gestion de usuarios, y otro clínico.</p>
             <img class="origen-img" src="./public/img/team-meeting-online-conference-call.jpg" alt="Foto Equipo">
-        </section>
+        </div>
         <!-- Seccion para especificar los directores -->
-        <section id="us" class="section-person">
+        <div id="us" class="section-person">
             <div class="divPerson">
                 <div class="flip-box">
                     <div class="flip-box-inner">
                         <div class="flip-box-front">
-                            <img class="imgFront" src="./public/img/daniel.jpg">
+                            <img class="imgFront" src="./public/img/daniel.jpg" alt="Foto de Daniel">
                         </div>
                         <div class="flip-box-back">
                             <span class="div__span">Daniel Cebulj</span>
@@ -89,7 +91,7 @@
                 <div class="flip-box">
                     <div class="flip-box-inner">
                         <div class="flip-box-front">
-                            <img class="imgFront" src="./public/img/rafael.jpg">
+                            <img class="imgFront" src="./public/img/rafael.jpg" alt="Foto de Rafael">
                         </div>
                         <div class="flip-box-back">
                             <span class="div__span">Rafael Mascayano</span>
@@ -104,7 +106,7 @@
                     médica.
                     Actualment desempeñado como facilitador en i-med.</p>
             </div>
-        </section>
+        </div>
 
 
         <footer class="footer row">
@@ -113,13 +115,21 @@
             </div>
             <div class="col-6">
                 <div class="content">
-                    <div id="social-networks" class="d-flex justify-content-end"">
-                        <i class=" fab fa-instagram-square px-1"></i>
-                        <i class="fab fa-facebook-square"></i>
+                    <div id="social-networks" class="d-flex justify-content-end">
+                        <a class="a" href=#><i class="fab fa-instagram-square px-1"></i></a>
+                        <a class="a" href=#><i class="fab fa-facebook-square"></i></a>
                     </div>
-                    <div id="links" class="d-flex justify-content-end">
-                        <a href="terminos.html" class="footer__links">Terminos y condiciones</a>
-                    </div>
+
+                    <ul id="links" class="footer__ul">
+                        <li class="d-flex justify-content-end"><a href="terminos.html" class="footer__li">Términos y
+                                condiciones</a>
+                        </li>
+                        <li class="d-flex justify-content-end"><a href="#" class="footer__li">Politica de
+                                cookies</a>
+                        </li>
+                        <li class="d-flex justify-content-end"><a href="#" class="footer__li">Contáctanos!</a></li>
+                    </ul>
+
                 </div>
             </div>
         </footer>

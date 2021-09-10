@@ -1,3 +1,5 @@
+/* footer */
+
 .footer {
   background-image: linear-gradient($white-color, $black-color);
   color: $white-color;
@@ -7,7 +9,19 @@
   bottom: 0;
   width: 100%;
 
-  &__links {
+  &__ul {
+    padding-top: 10px;
+  }
+
+  &__li {
+    color: $white-color;
+  }
+
+  &__li:link {
+    color: $white-color;
+  }
+
+  &__li:visited {
     color: $white-color;
   }
 }

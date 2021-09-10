@@ -56,3 +56,9 @@
   margin-top: 3px;
   list-style: none;
 }
+
+@include respond-to("medium") {
+  .why {
+    border-radius: 10px 100px / 120px;
+  }
+}
