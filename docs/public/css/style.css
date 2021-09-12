@@ -1,8 +1,11 @@
 /*  global functions */
+.mg-b {
+  margin-bottom: 150px !important; }
+
 /*  variables */
 /* footer */
 .footer {
-  background-image: linear-gradient(#f2f2f2, #0d0d0d);
+  background-color: #0d0d0d;
   color: #f2f2f2;
   font-size: 1.2em;
   padding: 20px;
@@ -83,8 +86,7 @@
 
 .what {
   text-align: center;
-  padding: 30px 30px 100px 30px;
-  margin-bottom: 70px; }
+  padding: 30px 30px 100px 30px; }
 
 .li-feats {
   margin-top: 3px;
@@ -143,7 +145,7 @@
   margin-top: 15px;
   width: 70%;
   filter: grayscale(100%);
-  transition: filter 3s; }
+  transition: filter 1s; }
 
 .origen-img:hover {
   filter: grayscale(0); }
