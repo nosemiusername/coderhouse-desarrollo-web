@@ -73,8 +73,8 @@
                         <input class="form-control" type="email" id="email" name="email" required placeholder="Email" />
                     </div>
                     <div class="input-group mb-1">
-                        <select class="form-select" name="area" id="area">
-                            <option disabled selected>Área</option>
+                        <select required class="form-select" name="area" id="area">
+                            <option value="">Área</option>
                             <option value="Enfermería">Enfermería</option>
                             <option value="Psicología">Psicología</option>
                             <option value="Medicina">Medicina</option>
@@ -82,7 +82,8 @@
                         </select>
                     </div>
                     <div class="input-group mb-1">
-                        <input class="form-control" type="number" id="edad" name="edad" required placeholder="Edad" />
+                        <input class="form-control" type="number" id="edad" min="0" max="100" name="edad" required
+                            placeholder="Edad" />
                     </div>
                     <input class="btn btn-dark" type="submit" value="Solicitar hora!">
                 </form>
