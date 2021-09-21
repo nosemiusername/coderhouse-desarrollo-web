@@ -14,6 +14,14 @@
     padding-top: 10px;
   }
 
+  &__i {
+    font-size: 2em;
+  }
+
+  &__i--spaced {
+    padding-right: 5px;
+  }
+
   &__li {
     color: $white-color;
   }
