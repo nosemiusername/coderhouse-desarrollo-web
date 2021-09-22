@@ -2,6 +2,14 @@
 .mg-b {
   margin-bottom: 150px !important; }
 
+.h1 {
+  text-align: center;
+  font-size: 3em;
+  padding: 20px; }
+
+.h1--hide {
+  display: none; }
+
 /*  variables */
 /* footer */
 .footer {
@@ -101,9 +109,6 @@
     border-radius: 10px 100px / 120px; } }
 
 /*  paciente */
-.h1 {
-  display: none; }
-
 .button {
   background-color: #0d0d0d;
   color: #f2f2f2;
@@ -136,9 +141,6 @@
   outline: none; }
 
 /*  sobre-nosotros */
-.h1 {
-  display: none; }
-
 .section__img {
   margin-top: 15px;
   width: 70%;
@@ -213,9 +215,6 @@
 .chapter {
   margin: 15px 0px; }
 
-.h1 {
-  display: none; }
-
 .h2 {
   padding: 5px;
   margin-right: 10px;
@@ -269,9 +268,6 @@
     height: 50px;
     border-radius: 50%; } }
 
-.h1 {
-  display: none; }
-
 .blockquote {
   width: 70%;
   text-align: center;
@@ -287,9 +283,6 @@
   justify-items: center; }
 
 /*  voluntarios */
-.h1 {
-  display: none; }
-
 .button {
   display: block;
   background-color: #0d0d0d;
